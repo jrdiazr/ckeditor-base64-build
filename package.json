@@ -35,5 +35,9 @@
   },
   "scripts": {
     "build": "webpack --mode production"
-  }
+  },
+  "main": "./build/ckeditor.js",
+  "files": [
+    "build"
+  ]
 }
